@@ -1,0 +1,10 @@
+16:13:06 **** Incremental Build of configuration Debug for project Project_bioConnect ****
+make -j7 all 
+arm-none-eabi-size  Project_bioConnect.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22860	    100	   2156	  25116	   621c	Project_bioConnect.elf
+Finished building: default.size.stdout
+ 
+
+16:13:07 Build Finished. 0 errors, 0 warnings. (took 288ms)
+

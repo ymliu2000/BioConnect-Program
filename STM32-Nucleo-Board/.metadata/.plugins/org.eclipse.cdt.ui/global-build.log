@@ -1,0 +1,25 @@
+16:11:37 **** Build of configuration Debug for project Driver ****
+make all 
+Building file: ../src/Driver.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Driver.d" -MT"src/Driver.o" -o "src/Driver.o" "../src/Driver.c"
+Finished building: ../src/Driver.c
+ 
+Building target: Driver
+Invoking: MacOS X C Linker
+gcc  -o "Driver"  ./src/Driver.o   
+Finished building target: Driver
+ 
+16:11:44 **** Incremental Build of configuration Debug for project Driver ****
+make all 
+make: Nothing to be done for `all'.
+16:13:00 **** Incremental Build of configuration Debug for project Driver ****
+make all 
+make: Nothing to be done for `all'.
+16:13:06 **** Incremental Build of configuration Debug for project Project_bioConnect ****
+make -j7 all 
+arm-none-eabi-size  Project_bioConnect.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22860	    100	   2156	  25116	   621c	Project_bioConnect.elf
+Finished building: default.size.stdout
+ 

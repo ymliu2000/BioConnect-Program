@@ -1,0 +1,6 @@
+16:13:00 **** Incremental Build of configuration Debug for project Driver ****
+make all 
+make: Nothing to be done for `all'.
+
+16:13:00 Build Finished. 0 errors, 0 warnings. (took 173ms)
+
